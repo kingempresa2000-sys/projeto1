@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Projeto1",
+    "slug": "projeto1-moto",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.projeto1.moto"
+    },
+    "android": {
+      "package": "com.projeto1.moto",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Projeto1 to access your location."
+        }
+      ]
+    ]
+  }
+}
